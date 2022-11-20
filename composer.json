@@ -1,10 +1,10 @@
 {
-  "name": "floor12/yii2-summernote",
+  "name": "liketux/yii2-summernote",
   "description": "This Yii2 component helps to organize page title, meta tags and `og` and `twitter` open graph tags in with a fiew lines of code.",
   "type": "yii2-component",
   "minimum-stability": "stable",
   "keywords": [
-    "floor12",
+    "liketux",
     "yii2 component",
     "yii2 widget",
     "summernote",
@@ -14,7 +14,8 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "yiisoft/yii2": "~2.0.13"
+    "yiisoft/yii2": "~2.0.13",
+    "yiisoft/yii2-bootstrap5": "~2.0.3"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*"
@@ -25,11 +26,16 @@
       "name": "floor12",
       "email": "primelifecoder@gmail.com",
       "role": "Developer"
+    },
+    {
+      "name": "liketux",
+      "email": "liketux@gmail.com",
+      "role": "Developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "floor12\\summernote\\": "src"
+      "liketux\\summernote\\": "src"
     }
   }
 }

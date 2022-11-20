@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 2019-02-18
- * Time: 11:28
- */
 
-namespace floor12\summernote;
+namespace liketux\summernote;
 
-use floor12\files\logic\ClassnameEncoder;
+use liketux\files\logic\ClassnameEncoder;
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
 
